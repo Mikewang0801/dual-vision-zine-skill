@@ -1,0 +1,15 @@
+Dual Vision Zine · 双生画面
+
+This distribution contains a substantially restructured and extended version
+of concepts from Scene Distillation Zine in gathered-scenes-zine-skill:
+https://github.com/Zeejay0/gathered-scenes-zine-skill
+
+Original project copyright:
+Copyright (c) 2026 Gathered Scenes Zine contributors
+
+Major modifications by Mikewang0801 include the dual-output architecture,
+photo-preserving editorial mode, mode router, source-topology and narrative-
+confidence handling, identity policy, prompt budget, bounded quality gate,
+documentation, and evaluation cases.
+
+Distributed under the MIT License. See LICENSE for the complete terms.
