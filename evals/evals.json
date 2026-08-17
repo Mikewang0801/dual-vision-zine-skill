@@ -1,0 +1,41 @@
+{
+  "skill_name": "scene-distillation-zine-v1-3",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "用这个 skill 处理我附上的旅行照片，我没指定模式。希望结果有高级感，但不要像商业广告。",
+      "expected_output": "Two outputs: a truthful photo-preserving editorial poster and a no-photo-pixel illustrated mood distillation, with one shared rationale.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "原图高级感模式。保留人物的脸、眼镜、黑色连衣裙和林荫大道，文案只用‘树影之间’，做一张克制的杂志海报。",
+      "expected_output": "One photo-preserving editorial result with stable identity and exact Chinese copy, without generic luxury decoration.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "意境化模式。把这张港口照片变成抽象纸刊，不要保留任何原图像素，但要让人看出船、潮汐方向和远处灯塔。",
+      "expected_output": "One original illustrated poster preserving source-specific anchors without photographic material.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "双方案模式处理这张上下拼接的两人照片。两个人的关系不确定，不要替我编故事；只表现他们在相似道路上的呼应。",
+      "expected_output": "Two outputs that detect multi-panel parallel input, preserve uncertainty, and avoid invented biography or chronology.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "双方案模式 + 单色块模式。原图方案保持自然色，意境化方案只允许一个连续的钴蓝色块。",
+      "expected_output": "A standard photo-preserving result plus a B result with exactly one contiguous cobalt field and otherwise neutral ink.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "帮我把这张老照片修复、去划痕、补全缺失的人脸并提高分辨率。",
+      "expected_output": "The skill should not handle this as a zine task; route to photo restoration or precise image editing instead.",
+      "files": []
+    }
+  ]
+}
