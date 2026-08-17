@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dual Vision Zine · 双生画面"
+  short_description: "一张照片，生成原图高级感海报与意境化纸刊两种视觉结局"
+  default_prompt: "Use $scene-distillation-zine-v1-3 to create both a premium photo-preserving editorial poster and a fully illustrated mood-distillation poster from this image."
